@@ -1,0 +1,31 @@
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  color:green;
+}
+form
+{
+
+  margin: 20px auto;
+}
+input, label
+{
+
+padding:0.8rem;
+margin: 5px auto;
+font-size: 1rem;
+font-weight: 700;
+}
+
+.form-group{
+  width:80%;
+  margin:  auto;
+
+}
+label{
+  border:none;
+  color:green;
+  text-transform: uppercase;
+}

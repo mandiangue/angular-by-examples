@@ -1,0 +1,18 @@
+table
+{
+  width:80%;
+  margin: 50px auto;
+  padding:3rem;
+
+  border-collapse:separate;
+
+}
+
+thead
+{
+  text-transform: capitalize;
+  font-size: 1.3em;
+  color: rgb(5, 5, 5);
+}
+
+

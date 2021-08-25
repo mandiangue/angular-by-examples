@@ -1,0 +1,31 @@
+<div class="table-responsive-sm">
+<table class="table table-striped">
+
+<thead>
+<tr>
+<th scope="col">Id du produit</th>
+<th scope="col">Nom du produit</th>
+<th scope="col">prix du produit</th>
+<th scope="col">action</th>
+</tr>
+</thead>
+<tbody>
+  <tr *ngFor="let produit of produits">
+      <th scope="row">{{produit.id}}</th>
+      <td>{{produit.nomProduit}}</td>
+<td>{{produit.prixProduit |currency: 'EUR': 'symbol': '1.2': 'fr'}}</td>
+<td>
+<button  class="btn btn-danger mx-5" (click)="deleteProduct(produit)">Supprimer</button>
+<button class="btn btn-success" [routerLink]= "['/updateProduit', produit.id]">Editer</button>
+</td>
+</tr>
+
+
+
+</tbody>
+
+
+</table>
+</div>
+<router-outlet></router-outlet>
+

@@ -1,0 +1,49 @@
+{
+  "produits": [
+    {
+      "id": 1,
+      "nomProduit": "Iphone",
+      "prixProduit": 1200
+    },
+    {
+      "id": 2,
+      "nomProduit": "Pc",
+      "prixProduit": 2000
+    },
+    {
+      "id": 3,
+      "nomProduit": "Laptop",
+      "prixProduit": 2900
+    },
+    {
+      "id": 4,
+      "nomProduit": "Imprimante",
+      "prixProduit": 3900
+    },
+    {
+      "id": 5,
+      "nomProduit": "Ecran",
+      "prixProduit": 700
+    },
+    {
+      "id": 6,
+      "nomProduit": "Téléphone",
+      "prixProduit": 600
+    },
+    {
+      "id": 7,
+      "nomProduit": "Téléphone",
+      "prixProduit": 600
+    },
+    {
+      "id": 9,
+      "nomProduit": "Téléphone",
+      "prixProduit": 100
+    },
+    {
+      "id": 10,
+      "nomProduit": "Téléphone",
+      "prixProduit": 400
+    }
+  ]
+}
